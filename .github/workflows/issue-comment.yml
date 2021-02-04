@@ -5,7 +5,7 @@ on:
     
 jobs:
   comment:
-    if: github.event)_name == 'issues'
+    if: github.event_name == 'issues'
     runs-on: ubuntu-latest
     steps:
       - name: Add funny comment
